@@ -8,8 +8,6 @@
     android:background="@drawable/ic_homebg"
     tools:context=".MainActivity">
 
-
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="36dp"

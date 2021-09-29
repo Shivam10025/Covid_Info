@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Covid Info</string>
+    <string name="today">Today</string>
+    <string name="spread_of_virus">Spread of virus</string>
+    <string name="serious">Serious</string>
+    <string name="_12_786">12,786</string>
+    <string name="recovered">Recovered</string>
+    <string name="_5_765">5,765</string>
+    <string name="death">Death</string>
+    <string name="_9_750">9,750</string>
+    <string name="statistics">Statistics</string>
+    <string name="my_country">My Country</string>
+    <string name="global">Global</string>
+    <string name="total">Total</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="affected">Affected</string>
+    <string name="_6_67_765">6,67,765</string>
+    <string name="active">Active</string>
+    <string name="_3_70_567">3,70,567</string>
+    <string name="see_all">See All</string>
+    <string name="todo">TODO</string>
 </resources>
