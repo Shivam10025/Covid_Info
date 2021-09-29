@@ -67,6 +67,15 @@ public class Statistics extends AppCompatActivity {
         pieChart.addPieSlice(new PieModel("Active" , Integer.parseInt(deathsi) , Color.parseColor("#ff5959")));
         pieChart.addPieSlice(new PieModel("Serious" , Integer.parseInt(seriousi) , Color.parseColor("#4db5ff")));
         pieChart.startAnimation();
+        int p , q , r , s;
+        p = 100*(Integer.parseInt(seriousi)/Integer.parseInt(affecti));
+        q = 100*(Integer.parseInt(recoveri)/Integer.parseInt(affecti));
+        s = 100*(Integer.parseInt(deathsi)/Integer.parseInt(affecti));
+        r = 100*(Integer.parseInt(activei)/Integer.parseInt(affecti));
+        precover.setText(""+q);
+        pdeaths.setText(""+s);
+        pserious.setText(""+p);
+        pactive.setText(""+r);
     }
     private void init(){
         affect = findViewById(R.id.textView12);
@@ -74,5 +83,9 @@ public class Statistics extends AppCompatActivity {
         deaths = findViewById(R.id.textView14);
         active = findViewById(R.id.textView16);
         serious = findViewById(R.id.textView20);
+        precover = findViewById(R.id.tv514);
+        pdeaths = findViewById(R.id.tv512);
+        pserious = findViewById(R.id.tv515);
+        pactive = findViewById(R.id.tv513);
     }
 }
