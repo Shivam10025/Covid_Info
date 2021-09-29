@@ -29,7 +29,7 @@
                 android:id="@+id/textView19"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="1dp"
                 android:textSize="20dp"
                 android:textStyle="italic"
                 android:layout_marginTop="16dp"
@@ -48,7 +48,7 @@
                 android:fontFamily="@font/aldrich"
                 android:text="12,786"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -77,7 +77,7 @@
                 android:id="@+id/textView17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="1dp"
                 android:textStyle="italic"
                 android:textSize="16dp"
                 android:layout_marginTop="16dp"
@@ -96,7 +96,7 @@
                 android:fontFamily="@font/aldrich"
                 android:text="5,765"
                 android:textColor="#FFFFFF"
-                android:textSize="15sp"
+                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -144,7 +144,7 @@
                 android:fontFamily="@font/aldrich"
                 android:text="9,750"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp"
+                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -211,7 +211,7 @@
                 android:fontFamily="@font/aldrich"
                 android:text="6,67,765"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp"
+                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -260,7 +260,7 @@
                 android:fontFamily="@font/aldrich"
                 android:text="3,70,567"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -287,10 +287,10 @@
                 android:id="@+id/piechart"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:padding="6dp"
+                android:padding="0dp"
                 android:layout_weight="1"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp" />
             <LinearLayout
                 android:layout_width="0dp"
@@ -311,6 +311,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/aldrich"
+                        android:textColor="#38006b"
                         android:textStyle="bold"
                         android:text="Serious =   "
                         android:paddingLeft="10dp"/>
@@ -318,6 +319,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/aldrich"
+                        android:textColor="#38006b"
                         android:id="@+id/tv515"
                         android:textStyle="bold"
                         android:text="25%"
@@ -327,7 +329,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="15dp"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginTop="5dp">
+                    android:layout_marginTop="10dp">
                     <View
                         android:layout_width="15dp"
                         android:layout_height="match_parent"
@@ -337,6 +339,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/aldrich"
                         android:textStyle="bold"
+                        android:textColor="#38006b"
                         android:text="Recovered="
                         android:paddingLeft="10dp"/>
                     <TextView
@@ -344,6 +347,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/aldrich"
                         android:id="@+id/tv514"
+                        android:textColor="#38006b"
                         android:textStyle="bold"
                         android:text="25%"
                         android:paddingLeft="10dp"/>
@@ -352,7 +356,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="15dp"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginTop="5dp">
+                    android:layout_marginTop="10dp">
                     <View
                         android:layout_width="15dp"
                         android:layout_height="match_parent"
@@ -361,6 +365,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/aldrich"
+                        android:textColor="#38006b"
                         android:textStyle="bold"
                         android:text="Active  =    "
                         android:paddingLeft="10dp"/>
@@ -368,6 +373,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/aldrich"
+                        android:textColor="#38006b"
                         android:id="@+id/tv513"
                         android:textStyle="bold"
                         android:text="25%"
@@ -377,7 +383,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="15dp"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginTop="5dp">
+                    android:layout_marginTop="10dp">
                     <View
                         android:layout_width="15dp"
                         android:layout_height="match_parent"
@@ -387,6 +393,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/aldrich"
                         android:textStyle="bold"
+                        android:textColor="#38006b"
                         android:text="Deaths  =   "
                         android:paddingLeft="10dp"/>
                     <TextView
@@ -395,6 +402,7 @@
                         android:fontFamily="@font/aldrich"
                         android:id="@+id/tv512"
                         android:textStyle="bold"
+                        android:textColor="#38006b"
                         android:text="25%"
                         android:paddingLeft="10dp"/>
 
