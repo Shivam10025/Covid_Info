@@ -1,9 +1,9 @@
 package com.example.covidinfo;
-
+//new project
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
+//covid details
 public class MainActivity extends AppCompatActivity {
 
     @Override
