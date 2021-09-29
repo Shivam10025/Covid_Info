@@ -5,8 +5,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.android.volley.Response;
 import com.example.covidinfo.api.ApiUtilities;
 import com.example.covidinfo.api.CountryData;
 
@@ -26,7 +24,7 @@ public class Statistics extends AppCompatActivity {
     private TextView precover , pdeaths , pactive , pserious;
     private List<CountryData>list;
     PieChart pieChart;
-    String affecti , recoveri , deathsi , activei,seriousi,pactivei, pdeathsi , precoveri , up;
+    String affecti="" , recoveri="" , deathsi="" , activei="",seriousi="",pactivei="", pdeathsi="" , precoveri="" , up="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -79,8 +77,8 @@ public class Statistics extends AppCompatActivity {
         pactive.setText(""+r);
     }
     private void init(){
-        affect = findViewById(R.id.textView12);
-        recover = findViewById(R.id.textView18);
+        affect =findViewById(R.id.textView12);
+        recover =findViewById(R.id.textView18);
         deaths = findViewById(R.id.textView14);
         active = findViewById(R.id.textView16);
         serious = findViewById(R.id.textView20);
