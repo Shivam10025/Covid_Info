@@ -24,7 +24,7 @@ public class Statistics extends AppCompatActivity {
     private TextView precover , pdeaths , pactive , pserious;
     private List<CountryData>list;
     PieChart pieChart;
-    String affecti="" , recoveri="" , deathsi="" , activei="",seriousi="",pactivei="", pdeathsi="" , precoveri="" , up="";
+    String affecti="" , recoveri="" , deathsi="" , activei="",seriousi="",pactivei="", pdeathsi="" , precoveri="" ,up="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,14 +77,14 @@ public class Statistics extends AppCompatActivity {
         pactive.setText(""+r);
     }
     private void init(){
-        affect =findViewById(R.id.textView12);
-        recover =findViewById(R.id.textView18);
-        deaths = findViewById(R.id.textView14);
-        active = findViewById(R.id.textView16);
-        serious = findViewById(R.id.textView20);
-        precover = findViewById(R.id.tv514);
-        pdeaths = findViewById(R.id.tv512);
-        pserious = findViewById(R.id.tv515);
-        pactive = findViewById(R.id.tv513);
+        affect = (TextView) findViewById(R.id.textView12);
+        recover = (TextView) findViewById(R.id.textView18);
+        deaths = (TextView) findViewById(R.id.textView14);
+        active = (TextView) findViewById(R.id.textView16);
+        serious = (TextView) findViewById(R.id.textView20);
+        precover = (TextView) findViewById(R.id.tv514);
+        pdeaths = (TextView) findViewById(R.id.tv512);
+        pserious = (TextView) findViewById(R.id.tv515);
+        pactive = (TextView) findViewById(R.id.tv513);
     }
 }
